@@ -1,6 +1,6 @@
-import React from 'react';
-import './Header.scss';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./Header.scss";
+import { Link } from "react-router-dom";
 
 const Header: React.FC = () => {
   return (
@@ -8,7 +8,9 @@ const Header: React.FC = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <p>
+              <Link to="/">Home</Link>
+            </p>
           </li>
           <li>
             <p>About</p>
@@ -20,11 +22,13 @@ const Header: React.FC = () => {
             <p>Works</p>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <p>
+              <Link to="/contact">Contact</Link>
+            </p>
           </li>
         </ul>
       </nav>
     </header>
-  )
-  }
+  );
+};
 export default Header;

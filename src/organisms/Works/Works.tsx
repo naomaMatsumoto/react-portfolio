@@ -12,11 +12,17 @@ const Works: React.FC = () => {
           <p>某大手サイトの管理システム</p>
         </div>
         <div className="works__list__box">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/images/dynamo-logo.png`}
+            alt="ダイナモBスタジオ"
+          />
           <p>ダイナモBスタジオ オープン</p>
         </div>
         <div className="works__list__box">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/images/nurse-working.png`}
+            alt="nurse-working"
+          />
           <p>人材紹介マッチングサイト</p>
         </div>
         <div className="works__list__box">

@@ -11,45 +11,20 @@ nav ul {
   display: flex;
   justify-content: center;
   gap: 32px;
-  li, p {
+  li {
+    width: 100px;
     display: inline;
-    margin-right: 10px;
-    cursor: pointer;
     text-decoration: none;
-    transition: color 0.3s ease;
-    transition: border 0.3s ease;
-    a {
-      color: white;
-      text-decoration: none;
-
-      &:before,
-      &:after {
-        content: '';
-        position: absolute;
-        width: 0;
-        height: 2px;
-        background: #3498db;
-        transition: all 0.3s ease;
-      }
-    
-      &:hover {
-        color: #000;
-      }
-    }
-
-  
-    &:before,
-    &:after {
-      content: '';
-      position: absolute;
-      width: 0;
-      height: 2px;
-      background: #3498db;
-      transition: all 0.3s ease;
-    }
-  
+    transition: border-left 0.1s ease, color 0.3s ease, border-top 0.4s ease,
+      border-right 0.9s ease, border-bottom 1.8s ease;
+    text-align: center;
+    cursor: pointer;
     &:hover {
       color: #000;
+      border-left: 1px solid #fefefe;
+      border-top: 1px solid #fefefe;
+      border-right: 1px solid #fefefe;
+      border-bottom: 1px solid #fefefe;
     }
   }
 }
