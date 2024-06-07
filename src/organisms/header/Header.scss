@@ -1,34 +1,19 @@
-$primary-color: #3498db;
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
-}
-
+// @import "./../../../../assets/scss/import";
+@import "./../../../public/scss/import";
 header {
   background-color: $primary-color;
   color: white;
   padding: 10px;
-  text-align: center;
 }
-
 nav ul {
   list-style: none;
   padding: 0;
-
   li {
     display: inline;
     margin-right: 10px;
-    
     a {
       color: white;
       text-decoration: none;
     }
   }
-}
-
-h2 {
-  color: $primary-color;
 }

@@ -1,0 +1,45 @@
+/**
+ * breakpoints
+ */
+$BREAKPOINTS: (
+  'mobile': 320px,
+  'tablet': 768px,
+  'desktop': 960px
+);
+
+/**
+ * colors
+ */
+
+$RED: #d50000;
+$LIGHT_RED: #ff0000;
+
+$LIGHT: #ffffff;
+$SUPER_LIGHT: #f5f5f5;
+
+$BLUE: #47bcc6;
+$BLUE_DARK: #48bcc6;
+
+$YELLOW: #fff000;
+
+$BLACK_LIGHT: #222222;
+$BLACK: #000000;
+
+$GRAY: #d5d5d5;
+
+$GRAY_DARK: #707070;
+
+$GRAY_LIGHT: #e2e2e2;
+$GRAY_SUPER_LIGHT: #cbcbcb;
+$primary-color: #3498db;
+
+/**
+ * frame size
+ */
+/** desktop */
+$OUTER_FRAME_WIDTH_DESKTOP: 1040px;
+$INNER_FRAME_WIDTH_DESKTOP: 888px;
+
+/** mobile */
+$OUTER_FRAME_WIDTH_MOBILE: 320px;
+$INNER_FRAME_WIDTH_MOBILE: 304px;

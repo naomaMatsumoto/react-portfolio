@@ -1,0 +1,12 @@
+@mixin button_pattern1() {
+  width: 320px;
+  max-width: 80%;
+  height: 80px;
+  @media screen and (max-width: #{map-get($BREAKPOINTS, 'tablet')}) {
+    width: 288px;
+    height: 64px;
+  }
+}
+
+@mixin input_error() {
+}

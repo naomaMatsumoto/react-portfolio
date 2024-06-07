@@ -1,0 +1,19 @@
+// animation
+.c-img-up-animation {
+  overflow: hidden;
+  width: 100%;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    transition-duration: 0.3s;
+  }
+  img:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+  }
+}

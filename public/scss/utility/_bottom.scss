@@ -1,0 +1,269 @@
+@import "./../import";
+
+::ng-deep.u-bottom {
+  width: 100%;
+
+  app-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+button {
+  transition: 0.4s;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.6;
+}
+.c-btn-flat-logo-skeleton {
+  width: 100%;
+  text-align: center;
+  padding: 12px 0px 12px 0px;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid #000;
+  color: #000;
+  background: #fff;
+  transition: 0.4s;
+}
+
+.c-btn-flat-logo {
+  width: 100%;
+  text-align: center;
+  padding: 12px 0px 12px 0px;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background: #4c8dca;
+  transition: 0.4s;
+}
+
+.c-btn-flat-logo:hover {
+  background: #66b1ff;
+  border-color: #66b1ff;
+}
+.-disable {
+  background-color: #a0cfff;
+  border-color: #a0cfff;
+  pointer-events: none;
+}
+
+// 青ボタン
+.c-btn-blue-flat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3789ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+// オレンジボタン
+.c-btn-orange-flat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f19331;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+// 赤ボタン
+.c-btn-flat-logo-red {
+  width: 100%;
+  text-align: center;
+  padding: 12px 0px 12px 0px;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background: #ca4c4c;
+  transition: 0.4s;
+}
+
+.c-btn-flat-logo-red:hover {
+  background: #ff7566;
+  border-color: #ff6666;
+}
+.-disable-red {
+  background-color: #ffa0a0;
+  border-color: #ffa0a0;
+  pointer-events: none;
+}
+
+// 応募ボタン
+.c-btn-application-subscription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 50px;
+  position: relative;
+  background: #228bc8;
+  border: 1px solid #228bc8;
+  border-radius: 30px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  line-height: 1.3;
+  text-align: left;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.c-btn-application-subscription:hover {
+  background: #fff;
+  color: #228bc8;
+}
+
+.c-main-account-button-regist {
+  width: 320px;
+  max-width: 80%;
+  background: linear-gradient(90deg, #fe6a8a 0%, #ff5176 100%);
+  border-radius: 5px;
+
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #ffffff;
+  text-align: center;
+  @media screen and (max-width: #{map-get($BREAKPOINTS, 'tablet')}) {
+    width: 288px;
+    height: 64px;
+  }
+}
+
+.c-btn-submit {
+  @include button_pattern1();
+  // width: 320px;
+  // max-width: 80%;
+  // height: 80px;
+  background: linear-gradient(
+    90deg,
+    #4aa8bf 0%,
+    #83a4d4 99.47%,
+    #89a4d4 99.48%
+  );
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  // @media screen and (max-width: #{map-get($BREAKPOINTS, 'tablet')}) {
+  //   width: 288px;
+  //   height: 64px;
+  // }
+}
+
+.c-btn-profile {
+  border: 1px solid #3789ff;
+  background: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #3789ff;
+  text-align: center;
+}
+
+.c-btn-scout {
+  background: #3789ff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.c-btn-update {
+  width: 74px;
+  height: 36px;
+  background: #89a4d4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.12em;
+  text-align: center;
+  padding-left: 8px;
+
+  background-image: url("/assets/img/wrike.png");
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: left 4px bottom 11px;
+
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+}
+
+.c-btn-remove {
+  width: 74px;
+  height: 36px;
+  background: #ff5176;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.12em;
+  text-align: center;
+  padding-left: 8px;
+
+  background-image: url("/assets/img/remove.png");
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: left 4px bottom 11px;
+
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+}
+
+.c-btn-flat-logo-cancel {
+  width: 220px;
+  height: 50px;
+  background: #f0f0f0;
+  border: 1px solid #838383;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  color: #3789ff;
+  text-align: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.c-btn-flat-logo-remove {
+  width: 220px;
+  height: 50px;
+  background: #ff5176;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+  text-align: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
