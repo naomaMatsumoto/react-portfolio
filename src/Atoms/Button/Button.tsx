@@ -1,10 +1,11 @@
-import React from 'react';
-import './Button.scss';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./Button.scss";
 
 const Button: React.FC = () => {
   return (
-    <div><button>test</button></div>
-  )
-}
+    <div>
+      <button>test</button>
+    </div>
+  );
+};
 export default Button;

@@ -1,12 +1,7 @@
-import React from 'react';
-import './Footer.scss';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./Footer.scss";
 
 const Footer: React.FC = () => {
-  return (
-    <footer>
-      © port folio
-    </footer>
-  )
-  }
+  return <footer>© port folio</footer>;
+};
 export default Footer;

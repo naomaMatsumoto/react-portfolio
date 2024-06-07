@@ -1,8 +1,8 @@
-import React from 'react';
-import './Footer.scss';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./Input.scss";
+import { Link } from "react-router-dom";
 
-const Footer: React.FC = () => {
+const Input: React.FC = () => {
   return (
     <footer>
       <nav>
@@ -25,6 +25,6 @@ const Footer: React.FC = () => {
         </ul>
       </nav>
     </footer>
-  )
-  }
-export default Footer;
+  );
+};
+export default Input;
