@@ -1,2 +1,23 @@
 // @import "./../../../../assets/scss/import";
 @import "./../../../public/scss/import";
+.works {
+    width: 80%;
+    margin: 0 auto;
+    &__title {
+        font-size: 64px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        &__box {
+            border: 1px solid #f2f2f2;
+            text-align: center;
+            > img {
+                width: 300px;
+            }
+        }
+    }
+}

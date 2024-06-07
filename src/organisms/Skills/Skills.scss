@@ -1,2 +1,12 @@
 // @import "./../../../../assets/scss/import";
 @import "./../../../public/scss/import";
+.skill {
+  width: 80%;
+  margin: 0 auto;
+  &__title {
+      font-size: 64px;
+      font-weight: 700;
+      text-align: center;
+  }
+  
+}

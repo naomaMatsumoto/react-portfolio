@@ -3,9 +3,9 @@ import './Skills.scss';
 
 const Skills: React.FC = () => {
   return (
-    <div>
-      <h2>Skills</h2>
-      <div>dfasfadsdfs</div>
+    <div className='skill'>
+      <h2 className='skill__title'>Skills</h2>
+      <div>Typescript</div>
     </div>
   )
   }
