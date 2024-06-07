@@ -1,10 +1,10 @@
 import React from 'react';
-import './Header.scss';
+import './Footer.scss';
 import { Link } from 'react-router-dom';
 
-const Header: React.FC = () => {
+const Footer: React.FC = () => {
   return (
-    <header>
+    <footer>
       <nav>
         <ul>
           <li>
@@ -24,7 +24,7 @@ const Header: React.FC = () => {
           </li>
         </ul>
       </nav>
-    </header>
+    </footer>
   )
   }
-export default Header;
+export default Footer;
