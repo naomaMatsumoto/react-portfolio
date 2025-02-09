@@ -2,14 +2,35 @@
 @import "./../../../public/scss/import";
 
 .about {
-    width: 80%;
-    margin: 0 auto;
-    &__title {
-        font-size: 64px;
-        font-weight: 700;
-        text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  &__title {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+  }
+  &__text {
+    font-size: 24px;
+  }
+}
+
+.t_table {
+  border: 1px solid red;
+  width: 200px;
+  table {
+    width: 200px;
+    flex: 0 0 auto; /* テーブルが縮小されないようにする */
+    border-collapse: collapse;
+    table-layout: fixed;
+    th {
+      border: 2px solid green;
+      input {
+        width: 100% !important;
+        height: 100% !important;
+      }
     }
-    &__text {
-        font-size: 24px;
+    td {
+      border: 4px solid blue !important;
     }
+  }
 }

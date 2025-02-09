@@ -1,6 +1,12 @@
 $primary-color: #3498db;
 
-
-h2 {
-  color: $primary-color;
+.contact {
+  width: 80%;
+  margin: 0 auto;
+  &__title {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    color: $primary-color;
+  }
 }
